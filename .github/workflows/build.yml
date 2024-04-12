@@ -19,7 +19,8 @@ jobs:
 
       - name: CI
         run: |
-          zip -r srfb.zip ./src/* && mv srfb.zip srfb.anproj
+          zip -r srfb.zip ./src/*
+          mv srfb.zip srfb.anproj
       
       # Upload Artifact
       - name: Artifact
