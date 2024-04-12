@@ -1,4 +1,4 @@
-name: Alice Novel Build
+name: Build for Alice Novel
 
 on:
   push:
