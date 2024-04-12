@@ -4,15 +4,15 @@ on:
   push:
     branches: [ main ]
     paths-ignore:
-      - '*.md'
+      - '**.md'
   pull_request:
     branches: [ main ]
     paths-ignore:
-      - '*.md'
+      - '**.md'
 
 jobs:
   build:
-    runs-on: 'linux-latest'
+    runs-on: linux-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
