@@ -1,0 +1,19 @@
+{
+	"game-name": "紅いいちごの花が咲く",
+
+    "root-image": "img/",
+    "root-background": "img/bg/",
+
+    "root-story": "story/",
+	"first-read": "main.anov",
+
+    "root-data": "data/",
+    "root-chara": "characters.json",
+
+    "root-save": "save/",
+
+    "root-audio": "audio/",
+    "root-bgm": "",
+    "root-se": "",
+    "root-movie": "movies/"
+}
