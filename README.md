@@ -14,6 +14,8 @@ It runs on the Alice System (such as [Alice Console](https://github.com/AliceNov
   - Alice Console v0.2.0-preview1 (or later) (recommend)
   - Alice Novel v0.9.1 (or later)
 - Language:
-  - 日本語
-- Creater:
-  - Ivy Cafeteria / Lemon73
+  - 日本語 (ja-JP)
+
+## License
+
+Licensed under the [CC BY-NC 4.0 license](LICENSE).
