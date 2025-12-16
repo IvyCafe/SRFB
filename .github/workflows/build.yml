@@ -17,15 +17,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: CI
+      - name: Pack files into anproj-format
         run: |
           cd src
-          zip -r ../srfb.zip ./
-          mv ../srfb.zip ../srfb.anproj
+          zip -r ../ddm-${{ github.sha }}.zip ./
+          mv ../ddm-${{ github.sha }}.zip ../ddm-${{ github.sha }}.anproj
       
       # Upload Artifact
       - name: Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: srfb
-          path: srfb.anproj
+          name: ddm
+          path: ddm-*.anproj
