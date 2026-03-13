@@ -1,14 +1,21 @@
-# Scarlet Raspberry Flowers Bloom
-紅いいちごの花が咲く- Scarlet Raspberry Flowers Bloom - 
+# The Daydream Magic
+
+白昼夢の魔法 - The Daydream Magic - 
 
 ## Summary
-This is the sample game, runs on your Alice Console (or Alice Novel).
+
+The sample game using Alice System where two girls aim to escape from a strange space.
+
+It runs on the Alice System (such as [Alice Console](https://github.com/AliceNovel/AliceConsole))
 
 ## Support
-- Version: 
+
+- Game Engine Version:
   - Alice Console v0.2.0-preview1 (or later) (recommend)
   - Alice Novel v0.9.1 (or later)
-- Language: 
-  - Japanese
-- Creater: 
-  - Ivy Cafeteria / Lemon73
+- Language:
+  - 日本語 (ja-JP)
+
+## License
+
+Licensed under the [CC BY-NC 4.0 license](LICENSE).
